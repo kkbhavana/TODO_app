@@ -1,8 +1,14 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: none;
+ box-sizing: border-box;
+}
+
 body{
 height:100vh;
 background-image:url('home.jpg');
 background-size:cover;
-
 }
 h1{
 font-size:50px;
@@ -34,13 +40,14 @@ text-decoration: none;
 }
 
 .card-body{
+display:flex;
 float:right;
 padding:10px;
 font-size:25px;
 color:#035454;
-margin:50px 200px;
 letter-spacing:2px;
 line-height:40px;
 backdrop-filter: blur(2px);
-
+margin-right:150px ;
+margin-top:50px;
 }
